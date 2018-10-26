@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+	<title>Javascript Date Time</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<script>
+document.getElementById("titleHead").innerHTML = "My 1st JavaScript ";
+</script>
+
+</head>
+<body>
+	<h1 id="titleHead" title="My First JavaScript">My First JavaScript</h1>
+	<button type="button" onclick="document.getElementById('dateDisplay').innerHTML = Date();">Click me to display Date and Time</button>
+
+	<button type="button" onclick="document.getElementById('dateDisplay').innerHTML = 'Hello JavaScript!'">Click me to change HTML content</button>
+
+	<button type="button" onclick="document.getElementById('titleHead').title = 'Hello JavaScript!'">Click me to change H1 title value</button>
+
+	<button type="button" onclick="document.getElementById('titleHead').style.color = 'red'">Click me to change H1 color</button>
+
+	<button type="button" onclick="document.getElementById('titleHead').style.display = 'none'">Click me to Hide H1</button>
+
+	<p id="dateDisplay"></p>
+</body>
+</html>
